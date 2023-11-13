@@ -9,8 +9,8 @@ import java.util.UUID;
 public class Payment {
     private UUID paymentId;
     private List<Product> products;
-    private UserAccount customer;
-    private BankAccount onlineShop;
+    private UserAccount from;
+    private UserAccount to;
 
     public void pay() {
 
