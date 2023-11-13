@@ -13,7 +13,13 @@ public class UserService {
     public void register(UserDto dto) {
         UserAccount userAccount = asUserAccount(dto);
 
-        userRepository.save(userAccount);
+        if (userAccount.isRegular() || isCreatedByTheBoss()) {
+            userRepository.save(userAccount);
+        }
+    }
+
+    private boolean isCreatedByTheBoss() {
+        return false;
     }
 
     private UserAccount asUserAccount(UserDto dto) {
