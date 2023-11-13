@@ -5,7 +5,7 @@ import jakarta.persistence.Table;
 import java.util.UUID;
 
 @Table(name = "USERS")
-public class Customer {
-    private UUID customerId;
+public class Receiver {
+    private UUID receiverId;
     private BankAccount bankAccount;
 }
