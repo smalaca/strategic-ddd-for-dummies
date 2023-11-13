@@ -10,4 +10,5 @@ public class Product {
     private boolean isFragile;
     private int weight;
     private Size size;
+    private Category category;
 }
