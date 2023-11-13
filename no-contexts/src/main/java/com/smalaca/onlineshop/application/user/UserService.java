@@ -1,4 +1,4 @@
-package com.smalaca.onlineshop.application;
+package com.smalaca.onlineshop.application.user;
 
 import com.smalaca.onlineshop.domain.UserAccount;
 import com.smalaca.onlineshop.domain.UserRepository;
