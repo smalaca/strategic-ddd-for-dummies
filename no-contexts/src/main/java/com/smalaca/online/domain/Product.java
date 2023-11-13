@@ -14,4 +14,5 @@ public class Product {
     private Category category;
     private String description;
     private List<String> characteristics;
+    private Price price;
 }
