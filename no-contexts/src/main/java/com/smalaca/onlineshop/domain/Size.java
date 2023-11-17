@@ -1,4 +1,4 @@
-package com.smalaca.online.domain;
+package com.smalaca.onlineshop.domain;
 
 public class Size {
     private int height;

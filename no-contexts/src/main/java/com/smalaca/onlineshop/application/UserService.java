@@ -1,7 +1,7 @@
-package com.smalaca.online.application;
+package com.smalaca.onlineshop.application;
 
-import com.smalaca.online.domain.UserAccount;
-import com.smalaca.online.domain.UserRepository;
+import com.smalaca.onlineshop.domain.UserAccount;
+import com.smalaca.onlineshop.domain.UserRepository;
 
 public class UserService {
     private final UserRepository userRepository;

@@ -1,13 +1,13 @@
-package com.smalaca.online.domain;
+package com.smalaca.onlineshop.domain;
 
 import jakarta.persistence.Table;
 
 import java.util.List;
 import java.util.UUID;
 
-@Table(name = "SHELVES")
-public class Shelf {
-    private UUID shelfId;
+@Table(name = "CARTS")
+public class Cart {
+    private UUID cartId;
     private List<Product> products;
 
     public void add(Product product) {

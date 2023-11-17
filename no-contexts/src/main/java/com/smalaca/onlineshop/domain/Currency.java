@@ -1,4 +1,4 @@
-package com.smalaca.online.domain;
+package com.smalaca.onlineshop.domain;
 
 public enum Currency {
     PLN, EUR

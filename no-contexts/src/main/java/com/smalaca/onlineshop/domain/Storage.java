@@ -1,4 +1,4 @@
-package com.smalaca.online.domain;
+package com.smalaca.onlineshop.domain;
 
 import jakarta.persistence.Table;
 
